@@ -14,4 +14,6 @@ set(SDL_ALL_LIBS ${SDL_LIBRARY} ${SDL_IMAGE_LIBRARIES})
 set(SDL_ALL_INCLUDE_DIRS ${SDL_INCLUDE_DIR} ${SDL_IMAGE_INCLUDE_DIRS})
 
 add_subdirectory("src/helloworld")
+add_subdirectory("src/tictactoe")
+add_subdirectory("src/c4")
 file(COPY data DESTINATION ${CMAKE_BINARY_DIR})
