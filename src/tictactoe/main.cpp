@@ -6,8 +6,7 @@
  *
  */
 
-#include "SDL.h"
-
+#include <SDL.h>
 #include "constants.h"
 #include "helpers.h"
 #include "app.h"

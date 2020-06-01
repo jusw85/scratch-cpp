@@ -1,6 +1,8 @@
 #ifndef SCRATCH_APP_H
 #define SCRATCH_APP_H
 
+#include <SDL_image.h>
+
 extern SDL_Surface *screen;
 extern SDL_Surface *sprite_x;
 extern SDL_Surface *sprite_o;

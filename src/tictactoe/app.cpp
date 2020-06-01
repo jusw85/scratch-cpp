@@ -1,5 +1,3 @@
-#include "SDL_image.h"
-
 #include "app.h"
 #include "constants.h"
 
